@@ -28,6 +28,7 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="main.css">
 
 </head>
 
@@ -62,10 +63,10 @@
             <a class="navbar-brand" href="#0">
                 <div class="logo">
                     <div class="logo-light">
-                        <img src="assets/img/logo-light.png" alt="">
+                        <img src="assets/img/logo-dark.png" class="msnlogo" alt="">
                     </div>
                     <div class="logo-dark">
-                        <img src="assets/img/logo-dark.png" alt="">
+                        <img src="assets/img/logo-light.png" class="msnlogo" alt="">
                     </div>
                 </div>
             </a>
@@ -111,13 +112,6 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Blog
-                        </a>
-                       
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#0">
                             Contact Us
@@ -128,9 +122,10 @@
                     <div class="social">
                         <ul class="rest">
                             <li>
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-dribbble"></i></a>
+                                <a href="https://www.facebook.com/msntechhub/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/techhub_msn/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://api.whatsapp.com/send/?phone=4915128106846" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://t.me/the_youngpreneur" target="_blank"><i class="fab fa-telegram"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -175,17 +170,30 @@
                             <div class="row">
 
                                 <div class="col-md-4 sm-mb50">
-                                    <div class="item">
-                                        <h6 class="fw-400"><span class="fw-700 mr-10">Email:</span> <span class="main-color">support@techhubmsn.net</span></h6>
+                                    <div class="mb-20 pb-20 bord-thin-bottom">
+                                        <h5 class="fz-20 fw-700">Germany</h5>
                                     </div>
-                
                                     <div class="item">
-                                        <h6 class="fw-400"><span class="fw-700 mr-10">Call:</span> <span class="main-color">+256 123 134 234</span></h6>
+                                        <a href="tel:+49 1512 8106846"><h6 class="fw-400"><span class="fw-700 mr-10"></span> <span class="main-color">+49 1512 8106846</span></h6></a>
+                                        <a href="mailto:germany@techhubmsn.net"><h6 class="fw-400"><span class="fw-700 mr-10"></span> <span class="main-color">germany@techhubmsn.net</span></h6></a>
                                     </div>
 
                                     <div class="item mt-20">
-                                        <p>Assistance hours: Monday – Friday
-                                            6 am to 8 pm </p>
+                                        <p>Call Anytime</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 sm-mb50">
+                                    <div class="mb-20 pb-20 bord-thin-bottom">
+                                        <h5 class="fz-20 fw-700">Uganda</h5>
+                                    </div>
+                                    <div class="item">
+                                        <a href="tel:+256 704990338"><h6 class="fw-400"><span class="fw-700 mr-10"></span> <span class="main-color">256 704990338</span></h6></a>
+                                   <a href="mailto:kampala@techhubmsn.net"><h6 class="fw-400"><span class="fw-700 mr-10"></span> <span class="main-color">kampala@techhubmsn.net</span></h6></a>
+                                    </div>
+
+                                    <div class="item mt-20">
+                                        <p>Call Anytime</p>
                                     </div>
                                 </div>
 
@@ -194,18 +202,19 @@
                                         <h5 class="fz-20 fw-700">Social Icons</h5>
                                     </div>
                                     <div class="social fz-13">
-                                        <a href="#0" class="icon">
+                                        <a href="https://www.facebook.com/msntechhub/" class="icon">
                                             <i class="fab fa-facebook-f"></i>
                                         </a>
-                                        <a href="#0" class="icon">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#0" class="icon">
-                                            <i class="fab fa-whatsapp"></i>
-                                        </a>
-                                        <a href="#0" class="icon">
+                                        <a href="https://t.me/the_youngpreneur" class="icon">
                                             <i class="fab fa-telegram"></i>
                                         </a>
+                                        <a href="https://www.instagram.com/techhub_msn/" class="icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send/?phone=4915128106846" class="icon">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                        
                                     </div>
                                 </div>
 
@@ -224,7 +233,7 @@
                             </div>
                         </div>
                         <div class="col-lg-9">
-                            <form id="contact-form" method="post" action="contact.php">
+                            <form id="contact-form" name="contact" method="POST" data-netlify="true">
 
                                 <div class="messages"></div>
         
@@ -295,9 +304,7 @@
                                 <li class="mr-30">
                                     <a href="pg-mission.html">Privacy policy</a>
                                 </li>
-                                <li class="mr-30">
-                                    <a href="pg-mission.html">Legal notice</a>
-                                </li>
+                    
                                 <li>
                                     <a href="pg-mission.html">Terms of service</a>
                                 </li>
@@ -336,7 +343,7 @@
 
     <!-- custom scripts -->
     <script src="assets/js/scripts.js"></script>
-
+<script src="contact.js"></script>
 </body>
 
 </html>

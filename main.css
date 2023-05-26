@@ -73,7 +73,14 @@ text-align: center;
 
 .textanimate {
   margin: auto;
-  font-size: 3.5rem;
+  font-size: 40px;
   font-weight: 300;
   animation: lights 5s 750ms linear infinite;
+}
+.msnlogo{
+  height: 40px;
+  width: auto;
+}
+.descrip-blog{
+  font-size: 15px
 }
